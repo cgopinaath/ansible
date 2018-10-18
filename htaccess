@@ -1,0 +1,4 @@
+AuthName "Restricted Stuff"
+AuthType basic
+AuthUserFile /var/www/html/protected/htpasswd
+Require valid-user
